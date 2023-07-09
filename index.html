@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Street Fighter</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="src/img/SF_Logo.png" alt="Street Fighter logo">
+    </header>
+
+    <main class="characters-selection">
+        <section class="characters">
+            <h1 class="heading">Selecione um personagem</h1>
+            <ul class="characters-list">
+                <li class="character selected" id="ryu" data-name="Ryu" data-description="Conhecido por sua determinação implacável, ele domina as artes marciais, especialmente o poderoso estilo de luta Ansatsuken. Ryu é movido por um insaciável desejo de se aprimorar e superar seus próprios limites.">
+                    <img src="src/img/card-ryu.jpg">
+                </li>
+
+                <li class="character" id="ken" data-name="Ken"
+                    data-description="Ken é carismático e explosivo. Com seu estilo de luta flamboyant e confiante, ele é conhecido por seus ataques rápidos e poderosos, combinando sua agilidade com técnicas de fogo, como o Shoryuken em chamas.">
+                    <img src="src/img/card-ken.jpg" alt="character Ken">
+                </li>
+
+                <li class="character" id="chun-li" data-name="Chun Li"
+                    data-description="Chun-Li é conhecida por seu poderoso e distintivo golpe conhecido como Spinning Bird Kick. Ao executar essa técnica, ela gira no ar, atingindo seus oponentes com uma combinação de chutes rápidos e poderosos.">
+                    <img src="src/img/card-chun li.jpg" alt="character Chun Li">
+                </li>
+
+                <li class="character" id="akuma" data-name="Akuma" data-description="Akuma é conhecido por seu poder avassalador. Seu golpe mais temido é o Raging Demon, onde ele se teleporta para trás de seu oponente e realiza uma sequência de golpes devastadores em alta velocidade.">
+                    <img src="src/img/card-akuma.jpg" alt="character Akuma">
+                </li>
+
+                <li class="character" id="juri" data-name="Juri" data-description="Juri é notada por sua ferocidade e estilo de luta único. Seu poder especial é o Feng Shui Engine, que aprimora sua agilidade e velocidade, permitindo que ela execute uma série devastadora de ataques imprevisíveis.">
+                    <img src="src/img/card-juri.jpg" alt="character Juri">
+                </li>
+
+                <li class="character" id="zangief" data-name="Zangief" data-description="Zangief reconhecido pela sua força bruta e agressividade. Seu poder principal é o Final Atomic Buster, um golpe onde ele levanta seu oponente e gira no ar antes de lançá-lo ao chão com enorme impacto.">
+                    <img src="src/img/card-zangief.jpg" alt="character Zangief">
+                </li>
+
+                <li class="character" id="guile" data-name="Guile" data-description="Sua técnica característica, o Sonic Boom. Com essa habilidade, ele cria projéteis de energia sonora que se movem em direção ao oponente, controlando o espaço e mantendo a pressão constante sobre o inimigo.">
+                    <img src="src/img/card-guile.jpg" alt="character Guile">
+                </li>
+
+                <li class="character" id="e-honda" data-name="Edmond Honda" data-description="é um mestre da luta sumô. Seu poder mais distintivo é o Sumo Headbutt, um ataque em que ele desfere uma cabeçada poderosa no oponente. Honda possui força e resistência impressionantes, capaz de absorver danos.">
+                    <img src="src/img/card-e.honda.jpg" alt="character Edmond Honda">
+                </li>
+            </ul>
+            <button class="continue-button">continuar</button>
+        </section>
+        <section class="selected-character">
+            <img class="big-character" src="src/img/card-ryu.png" alt="selected character" />
+
+            <div class="character-information">
+                <h2 class="characters-name" id="characters-name">Ryu</h2>
+                <p class="character-description" id="character-description">
+                    Conhecido por sua determinação implacável, ele domina
+                    as artes marciais, especialmente o poderoso estilo de luta Ansatsuken. Ryu é movido por um
+                    insaciável desejo de se aprimorar e superar seus próprios limites.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Criado com ❤ por Dimitry Voishev Junior</p>
+    </footer>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
